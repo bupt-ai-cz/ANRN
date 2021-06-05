@@ -10,7 +10,8 @@ Implementation detail for our paper "Angle-Based Non-local Recurrent Network for
 Please cite this paper in your publications if it helps your research:
 
 ```
-@INPROCEEDINGS{9344890,  author={Wang, Zefan and Zhu, Chuang and Liu, Jun and Lin, WenHui and Liu, YaTing and Li, Chunxu},  
+@INPROCEEDINGS{9344890,  
+author={Wang, Zefan and Zhu, Chuang and Liu, Jun and Lin, WenHui and Liu, YaTing and Li, Chunxu},  
 booktitle={2020 IEEE 6th International Conference on Computer and Communications (ICCC)},   
 title={Angle-Based Non-local Recurrent Network for Single Image Deraining},  
 year={2020},  volume={},  number={},  

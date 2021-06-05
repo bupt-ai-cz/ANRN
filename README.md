@@ -3,7 +3,7 @@
 # Angle-Based Non-local Recurrent Network for Single Image Deraining
 
 Implementation detail for our paper "Angle-Based Non-local Recurrent Network for Single Image Deraining"
-(https://ieeexplore.ieee.org/abstract/document/9344937), this code also includes further resaerch beyound this paper.
+(https://ieeexplore.ieee.org/abstract/document/9344890), this code also includes further resaerch beyound this paper.
 
 ## Citation
 

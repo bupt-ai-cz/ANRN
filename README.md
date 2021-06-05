@@ -19,6 +19,8 @@ doi={10.1109/ICCC51575.2020.9344890}}
 ```
 
 ## Dataset
+
+download these datasets to code/datasets
 Rain100H:
 Rain100L:
 

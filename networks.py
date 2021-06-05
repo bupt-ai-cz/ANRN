@@ -13,7 +13,7 @@ import time
 import os
  
 
-class PReNet(nn.Module):
+class ANRN(nn.Module):
     def __init__(self, recurrent_iter=6, use_GPU=True):
         super(PReNet, self).__init__()
         self.iteration = recurrent_iter
@@ -116,7 +116,7 @@ class PReNet(nn.Module):
         return x, x_list
 
 
-class PReNet_LSTM(nn.Module):
+class ANRN_LSTM(nn.Module):
     def __init__(self, recurrent_iter=6, use_GPU=True):
         super(PReNet_LSTM, self).__init__()
         self.iteration = recurrent_iter
@@ -219,7 +219,7 @@ class PReNet_LSTM(nn.Module):
         return x, x_list
 
 
-class PReNet_GRU(nn.Module):
+class ANRN_GRU(nn.Module):
     def __init__(self, recurrent_iter=6, use_GPU=True):
         super(PReNet_GRU, self).__init__()
         self.iteration = recurrent_iter
@@ -319,7 +319,7 @@ class PReNet_GRU(nn.Module):
         return x, x_list
 
 
-class PReNet_x(nn.Module):
+class ANRN_x(nn.Module):
     def __init__(self, recurrent_iter=6, use_GPU=True):
         super(PReNet_x, self).__init__()
         self.iteration = recurrent_iter
@@ -421,7 +421,7 @@ class PReNet_x(nn.Module):
         return x, x_list
 
 
-class PReNet_r(nn.Module):
+class ANRN_r(nn.Module):
     def __init__(self, recurrent_iter=6, use_GPU=True):
         super(PReNet_r, self).__init__()
         self.iteration = recurrent_iter
@@ -494,78 +494,8 @@ class PReNet_r(nn.Module):
         return x, x_list
 
 
-## PRN
-class PRN(nn.Module):
-    def __init__(self, recurrent_iter=6, use_GPU=True):
-        super(PRN, self).__init__()
-        self.iteration = recurrent_iter
-        self.use_GPU = use_GPU
-
-        self.conv0 = nn.Sequential(
-            nn.Conv2d(6, 32, 3, 1, 1),
-            nn.ReLU()
-        )
-        self.res_conv1 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU(),
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU()
-        )
-        self.res_conv2 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU(),
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU()
-        )
-        self.res_conv3 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU(),
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU()
-        )
-        self.res_conv4 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU(),
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU()
-        )
-        self.res_conv5 = nn.Sequential(
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU(),
-            nn.Conv2d(32, 32, 3, 1, 1),
-            nn.ReLU()
-        )
-        self.conv = nn.Sequential(
-            nn.Conv2d(32, 3, 3, 1, 1),
-        )
-
-    def forward(self, input):
-
-        x = input
-
-        x_list = []
-        for i in range(self.iteration):
-            x = torch.cat((input, x), 1)
-            x = self.conv0(x)
-            resx = x
-            x = F.relu(self.res_conv1(x) + resx)
-            resx = x
-            x = F.relu(self.res_conv2(x) + resx)
-            resx = x
-            x = F.relu(self.res_conv3(x) + resx)
-            resx = x
-            x = F.relu(self.res_conv4(x) + resx)
-            resx = x
-            x = F.relu(self.res_conv5(x) + resx)
-            x = self.conv(x)
-
-            x = x + input
-            x_list.append(x)
-
-        return x, x_list
 
 
-class PRN_r(nn.Module):
     def __init__(self, recurrent_iter=6, use_GPU=True):
         super(PRN_r, self).__init__()
         self.iteration = recurrent_iter

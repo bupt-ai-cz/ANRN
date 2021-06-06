@@ -21,7 +21,7 @@ If you have questions regarding the dataset (please contact us: wangzefan@bupt.e
 ## Training
 ```
 $ cd code/
-# train dataset and record training history
+# train network
 $ sh train.sh
 # test dateset and record test results
 $ sh test.sh

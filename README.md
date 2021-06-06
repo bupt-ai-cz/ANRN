@@ -5,21 +5,6 @@
 Implementation detail for our paper "Angle-Based Non-local Recurrent Network for Single Image Deraining"
 (https://ieeexplore.ieee.org/abstract/document/9344890), this code also includes further resaerch beyound this paper.
 
-## Citation
-
-Please cite this paper in your publications if it helps your research:
-
-```
-@inproceedings{wang2020angle,
-  title={Angle-Based Non-local Recurrent Network for Single Image Deraining},
-  author={Wang, Zefan and Zhu, Chuang and Liu, Jun and Lin, WenHui and Liu, YaTing and Li, Chunxu},
-  booktitle={2020 IEEE 6th International Conference on Computer and Communications (ICCC)},
-  pages={2261--2264},
-  year={2020},
-  organization={IEEE}
-}
-```
-
 ## Dataset
 
 download these datasets to code/datasets
@@ -44,6 +29,22 @@ $ sh test.sh
 $ python ssim.py
 
 ```
+
+## Citation
+
+Please cite this paper in your publications if it helps your research:
+
+```
+@inproceedings{wang2020angle,
+  title={Angle-Based Non-local Recurrent Network for Single Image Deraining},
+  author={Wang, Zefan and Zhu, Chuang and Liu, Jun and Lin, WenHui and Liu, YaTing and Li, Chunxu},
+  booktitle={2020 IEEE 6th International Conference on Computer and Communications (ICCC)},
+  pages={2261--2264},
+  year={2020},
+  organization={IEEE}
+}
+```
+
 ## Contact
 
 * email：wangzefan@bupt.edu.cn; czhu@bupt.edu.cn

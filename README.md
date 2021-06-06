@@ -10,13 +10,14 @@ Implementation detail for our paper "Angle-Based Non-local Recurrent Network for
 Please cite this paper in your publications if it helps your research:
 
 ```
-@INPROCEEDINGS{9344890,  
-author={Wang, Zefan and Zhu, Chuang and Liu, Jun and Lin, WenHui and Liu, YaTing and Li, Chunxu},  
-booktitle={2020 IEEE 6th International Conference on Computer and Communications (ICCC)},   
-title={Angle-Based Non-local Recurrent Network for Single Image Deraining},  
-year={2020},  volume={},  number={},  
-pages={2261-2264}, 
-doi={10.1109/ICCC51575.2020.9344890}}
+@inproceedings{wang2020angle,
+  title={Angle-Based Non-local Recurrent Network for Single Image Deraining},
+  author={Wang, Zefan and Zhu, Chuang and Liu, Jun and Lin, WenHui and Liu, YaTing and Li, Chunxu},
+  booktitle={2020 IEEE 6th International Conference on Computer and Communications (ICCC)},
+  pages={2261--2264},
+  year={2020},
+  organization={IEEE}
+}
 ```
 
 ## Dataset
@@ -25,7 +26,7 @@ download these datasets to code/datasets
 
 Rain100H and Rain100L:https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F
 
-If you have questions regarding the patch dataset (with or without noisy labels, please contact us: wangzefan@bupt.edu.cn)
+If you have questions regarding the dataset (please contact us: wangzefan@bupt.edu.cn, czhu@bupt.edu.cn)
 
 ## Envs
 - Pytorch 1.0

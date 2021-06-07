@@ -7,9 +7,10 @@ Implementation detail for our paper "Angle-Based Non-local Recurrent Network for
 
 ## Dataset
 
-download these datasets to code/datasets
+Download these datasets to code/datasets
 
-Rain100H and Rain100L:https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F
+Rain100H and Rain100L: 
+[Google Drive](https://drive.google.com/drive/folders/1sF_2hNvz-6yoNJCxq8aa5oN3yz0VvsjQ?usp=sharing) or [Baidu YUN](https://pan.baidu.com/s/1J0q6Mrno9aMCsaWZUtmbkg#list/path=%2F)
 
 If you have questions regarding the dataset (please contact us: wangzefan@bupt.edu.cn, czhu@bupt.edu.cn)
 

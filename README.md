@@ -47,7 +47,8 @@ Please cite this paper in your publications if it helps your research:
 ```
 
 Please also cite the following paper if you use the dataset:
-Yang W, Tan R T, Feng J, et al. Deep joint rain detection and removal from a single image[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 1357-1366.
+
+Yang W, Tan R T, Feng J, et al. Deep joint rain detection and removal from a single image[C]. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017: 1357-1366.
 
 
 ## Contact

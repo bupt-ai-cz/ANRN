@@ -1,4 +1,4 @@
-# ANRN [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20over%20170%20free%20design%20blocks%20based%20on%20Bootstrap%204&url=https://froala.com/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
+# ANRN [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Angle-Based%20Non-local%20Recurren%20Network%20for%20Single%20Image%20Deraining%204&url=https://github.com/bupt-ai-cz/ANRN)
 
 # Angle-Based Non-local Recurrent Network for Single Image Deraining
 

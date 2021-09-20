@@ -2,8 +2,7 @@
 
 # Angle-Based Non-local Recurrent Network for Single Image Deraining
 
-Implementation detail for our paper ["Angle-Based Non-local Recurrent Network for Single Image Deraining"]
-(https://www.researchgate.net/publication/349280836_Angle-Based_Non-local_Recurrent_Network_for_Single_Image_Deraining), this code also includes further resaerch beyound this paper.
+Implementation detail for our paper [Angle-Based Non-local Recurrent Network for Single Image Deraining](https://www.researchgate.net/publication/349280836_Angle-Based_Non-local_Recurrent_Network_for_Single_Image_Deraining), this code also includes further resaerch beyound this paper.
 
 ## Dataset
 
